@@ -8,14 +8,15 @@
 
 
 //缓存全部在cache文件夹中 清理软件缓存的时候 就都清掉了
-//没有设置内存缓存  内存占用低低低 反正现在的FLASH都很快  ..
-#define ZX_LOCOL_CACHE_LIST @"/Users/mac/Desktop/ImgReloaderCache.plist"
+//#define ZX_LOCOL_CACHE_LIST @"/Users/mac/Desktop/ImgReloaderCache.plist"
 
 //缩放图片最大边长
 #define MAX_SIZE 700
 
 //内存缓存
 #define MAX_CACHE 20
+
+
 #import "ZXImageReloader.h"
 @interface ZXImageReloader() <NSURLSessionDataDelegate>
 //磁盘缓存列表
@@ -30,12 +31,13 @@
 //当前下载文件地址
 @property (nonatomic,copy)NSString *currentUrl;
 
+//内存缓存
 @property (nonatomic,strong)NSCache *MemCache;
 
 @end
 
 @implementation ZXImageReloader
-///Users/mac/Library/Developer/CoreSimulator/Devices/9A3DDD41-926A-4B4A-BC08-423176021A54/data/Containers/Data/Application/A9A5EFE5-3582-4148-8AD8-886FCA3E35F5/Library/Caches/ImgReloaderCache.plist
+
 
 -(NSCache *)MemCache{
 
@@ -179,6 +181,8 @@
                      img = [self resize:img size:CGSizeMake((h / MAX_SIZE) * w,MAX_SIZE)];
             }
         }
+        
+        //加入内存缓存
         [self.MemCache setObject:img forKey:self.currentUrl];
         
         self.finish(img);
