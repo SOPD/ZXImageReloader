@@ -19,5 +19,6 @@
 1. 当对多个IMAGEVIEW使用本工具时 CPU消耗较高 
 
 
-![picture1](http://ww3.sinaimg.cn/mw690/be3cd04agw1f5206ahnkug20dz0gfb2g.gif)
-![picture2](http://ww1.sinaimg.cn/mw690/be3cd04agw1f522bw88rfg20dz0gfkjs.gif)
+###内存占用对比
+![picture1](http://ww2.sinaimg.cn/mw690/be3cd04agw1f555tq0fdfg209508t4qq.gif)
+![picture2](http://ww4.sinaimg.cn/mw690/be3cd04agw1f555uipfffg209508t4qr.gif)
