@@ -20,6 +20,6 @@
 
 
 ###内存占用对比
-####(模拟器上本工具相对SDWebImage流畅度较低真机上差距不大,图片特别卡是加载慢,请稍等一下)
+####(模拟器上本工具相对SDWebImage流畅度较低真机上差距不大,图片特别卡是加载慢,请稍等一下或者点击图片单独查看)
 ![picture1](http://ww2.sinaimg.cn/mw690/be3cd04agw1f555tq0fdfg209508t4qq.gif)
 ![picture2](http://ww4.sinaimg.cn/mw690/be3cd04agw1f555uipfffg209508t4qr.gif)
