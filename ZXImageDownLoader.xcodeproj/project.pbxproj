@@ -15,6 +15,7 @@
 		04B67FFB1CF1D81B004A3206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B67FF91CF1D81B004A3206 /* LaunchScreen.storyboard */; };
 		04DC66CB1D18C8A100898722 /* UIImageView+ZXImageReloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC66C81D18C8A100898722 /* UIImageView+ZXImageReloader.m */; };
 		04DC66CC1D18C8A100898722 /* ZXImageReloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC66CA1D18C8A100898722 /* ZXImageReloader.m */; };
+		04F07D1B1D2A122000B5887E /* ZXSingelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F07D1A1D2A122000B5887E /* ZXSingelCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,8 @@
 		04DC66C81D18C8A100898722 /* UIImageView+ZXImageReloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZXImageReloader.m"; sourceTree = "<group>"; };
 		04DC66C91D18C8A100898722 /* ZXImageReloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXImageReloader.h; sourceTree = "<group>"; };
 		04DC66CA1D18C8A100898722 /* ZXImageReloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXImageReloader.m; sourceTree = "<group>"; };
+		04F07D191D2A122000B5887E /* ZXSingelCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSingelCache.h; sourceTree = "<group>"; };
+		04F07D1A1D2A122000B5887E /* ZXSingelCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSingelCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +96,8 @@
 				04DC66C81D18C8A100898722 /* UIImageView+ZXImageReloader.m */,
 				04DC66C91D18C8A100898722 /* ZXImageReloader.h */,
 				04DC66CA1D18C8A100898722 /* ZXImageReloader.m */,
+				04F07D191D2A122000B5887E /* ZXSingelCache.h */,
+				04F07D1A1D2A122000B5887E /* ZXSingelCache.m */,
 			);
 			path = ZXImageReolader;
 			sourceTree = "<group>";
@@ -172,6 +177,7 @@
 				04B67FF01CF1D81B004A3206 /* AppDelegate.m in Sources */,
 				04DC66CB1D18C8A100898722 /* UIImageView+ZXImageReloader.m in Sources */,
 				04DC66CC1D18C8A100898722 /* ZXImageReloader.m in Sources */,
+				04F07D1B1D2A122000B5887E /* ZXSingelCache.m in Sources */,
 				04B67FED1CF1D81B004A3206 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

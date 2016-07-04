@@ -18,6 +18,7 @@
 
 
 #import "ZXImageReloader.h"
+#import "ZXSingelCache.h"
 @interface ZXImageReloader() <NSURLSessionDataDelegate>
 //磁盘缓存列表
 @property (nonatomic,strong)NSMutableDictionary *diskCache;
@@ -32,7 +33,7 @@
 @property (nonatomic,copy)NSString *currentUrl;
 
 //内存缓存
-@property (nonatomic,strong)NSCache *MemCache;
+@property (nonatomic,strong)ZXSingelCache *MemCache;
 
 @end
 
@@ -42,7 +43,8 @@
 -(NSCache *)MemCache{
 
     if (_MemCache == nil) {
-        _MemCache  = [NSCache new];
+        //获取单例内存缓存
+        _MemCache  = [ZXSingelCache sharedCache];
         _MemCache.totalCostLimit = MAX_CACHE;
     }
     return _MemCache;
