@@ -27,7 +27,7 @@
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
-    //创建reloader对象 (给每个imageView创建一个 我就不写到IMAGE的分类的  这样比较明白)
+
 
     
         //将该对象作为属性时在block内使用__weak防止循环引用
@@ -59,6 +59,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
 - (UIImage *)scaleToSize:(UIImage *)img size:(CGSize)size{
     // 创建一个bitmap的context
     // 并把它设置成为当前正在使用的context
@@ -71,5 +72,6 @@
     UIGraphicsEndImageContext();
     // 返回新的改变大小后的图片
     return scaledImage;
+    
 }
 @end
