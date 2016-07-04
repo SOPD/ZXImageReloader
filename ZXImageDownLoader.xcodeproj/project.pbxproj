@@ -13,9 +13,9 @@
 		04B67FF61CF1D81B004A3206 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B67FF41CF1D81B004A3206 /* Main.storyboard */; };
 		04B67FF81CF1D81B004A3206 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04B67FF71CF1D81B004A3206 /* Assets.xcassets */; };
 		04B67FFB1CF1D81B004A3206 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04B67FF91CF1D81B004A3206 /* LaunchScreen.storyboard */; };
-		04DC66CB1D18C8A100898722 /* UIImageView+ZXImageReloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC66C81D18C8A100898722 /* UIImageView+ZXImageReloader.m */; };
-		04DC66CC1D18C8A100898722 /* ZXImageReloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04DC66CA1D18C8A100898722 /* ZXImageReloader.m */; };
-		04F07D1B1D2A122000B5887E /* ZXSingelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F07D1A1D2A122000B5887E /* ZXSingelCache.m */; };
+		04F07D231D2A2D1800B5887E /* UIImageView+ZXImageReloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F07D1E1D2A2D1800B5887E /* UIImageView+ZXImageReloader.m */; };
+		04F07D241D2A2D1800B5887E /* ZXImageReloader.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F07D201D2A2D1800B5887E /* ZXImageReloader.m */; };
+		04F07D251D2A2D1800B5887E /* ZXSingelCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 04F07D221D2A2D1800B5887E /* ZXSingelCache.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,12 +29,12 @@
 		04B67FF71CF1D81B004A3206 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04B67FFA1CF1D81B004A3206 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04B67FFC1CF1D81B004A3206 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		04DC66C71D18C8A100898722 /* UIImageView+ZXImageReloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZXImageReloader.h"; sourceTree = "<group>"; };
-		04DC66C81D18C8A100898722 /* UIImageView+ZXImageReloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZXImageReloader.m"; sourceTree = "<group>"; };
-		04DC66C91D18C8A100898722 /* ZXImageReloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXImageReloader.h; sourceTree = "<group>"; };
-		04DC66CA1D18C8A100898722 /* ZXImageReloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXImageReloader.m; sourceTree = "<group>"; };
-		04F07D191D2A122000B5887E /* ZXSingelCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSingelCache.h; sourceTree = "<group>"; };
-		04F07D1A1D2A122000B5887E /* ZXSingelCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSingelCache.m; sourceTree = "<group>"; };
+		04F07D1D1D2A2D1800B5887E /* UIImageView+ZXImageReloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImageView+ZXImageReloader.h"; sourceTree = "<group>"; };
+		04F07D1E1D2A2D1800B5887E /* UIImageView+ZXImageReloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImageView+ZXImageReloader.m"; sourceTree = "<group>"; };
+		04F07D1F1D2A2D1800B5887E /* ZXImageReloader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXImageReloader.h; sourceTree = "<group>"; };
+		04F07D201D2A2D1800B5887E /* ZXImageReloader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXImageReloader.m; sourceTree = "<group>"; };
+		04F07D211D2A2D1800B5887E /* ZXSingelCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXSingelCache.h; sourceTree = "<group>"; };
+		04F07D221D2A2D1800B5887E /* ZXSingelCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXSingelCache.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,7 +67,7 @@
 		04B67FEA1CF1D81A004A3206 /* ZXImageDownLoader */ = {
 			isa = PBXGroup;
 			children = (
-				04DC66C61D18C8A100898722 /* ZXImageReolader */,
+				04F07D1C1D2A2D1800B5887E /* ZXImageReloader */,
 				04B67FEE1CF1D81B004A3206 /* AppDelegate.h */,
 				04B67FEF1CF1D81B004A3206 /* AppDelegate.m */,
 				04B67FF11CF1D81B004A3206 /* ViewController.h */,
@@ -89,17 +89,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		04DC66C61D18C8A100898722 /* ZXImageReolader */ = {
+		04F07D1C1D2A2D1800B5887E /* ZXImageReloader */ = {
 			isa = PBXGroup;
 			children = (
-				04DC66C71D18C8A100898722 /* UIImageView+ZXImageReloader.h */,
-				04DC66C81D18C8A100898722 /* UIImageView+ZXImageReloader.m */,
-				04DC66C91D18C8A100898722 /* ZXImageReloader.h */,
-				04DC66CA1D18C8A100898722 /* ZXImageReloader.m */,
-				04F07D191D2A122000B5887E /* ZXSingelCache.h */,
-				04F07D1A1D2A122000B5887E /* ZXSingelCache.m */,
+				04F07D1D1D2A2D1800B5887E /* UIImageView+ZXImageReloader.h */,
+				04F07D1E1D2A2D1800B5887E /* UIImageView+ZXImageReloader.m */,
+				04F07D1F1D2A2D1800B5887E /* ZXImageReloader.h */,
+				04F07D201D2A2D1800B5887E /* ZXImageReloader.m */,
+				04F07D211D2A2D1800B5887E /* ZXSingelCache.h */,
+				04F07D221D2A2D1800B5887E /* ZXSingelCache.m */,
 			);
-			path = ZXImageReolader;
+			path = ZXImageReloader;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -175,9 +175,9 @@
 			files = (
 				04B67FF31CF1D81B004A3206 /* ViewController.m in Sources */,
 				04B67FF01CF1D81B004A3206 /* AppDelegate.m in Sources */,
-				04DC66CB1D18C8A100898722 /* UIImageView+ZXImageReloader.m in Sources */,
-				04DC66CC1D18C8A100898722 /* ZXImageReloader.m in Sources */,
-				04F07D1B1D2A122000B5887E /* ZXSingelCache.m in Sources */,
+				04F07D231D2A2D1800B5887E /* UIImageView+ZXImageReloader.m in Sources */,
+				04F07D241D2A2D1800B5887E /* ZXImageReloader.m in Sources */,
+				04F07D251D2A2D1800B5887E /* ZXSingelCache.m in Sources */,
 				04B67FED1CF1D81B004A3206 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
